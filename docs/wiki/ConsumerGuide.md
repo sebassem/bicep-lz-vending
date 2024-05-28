@@ -9,12 +9,12 @@ This repository has been created to help customers and partners to create, deplo
 
 ### Recommended Way to Consume
 
-The recommend way is to consume the module directly from the [Bicep public registry](https://github.com/Azure/bicep-registry-modules/tree/main/modules/lz/sub-vending#examples)
+The recommend way is to consume the module directly from the [Bicep public registry](https://github.com/Azure/bicep-registry-modules/tree/main/avm/ptn/lz/sub-vending)
 
 ```bicep
 targetScope = 'managementGroup'
 
-module sub001 'br/public:lz/sub-vending:1.5.1' = {
+module sub001 'br/public:avm/ptn/lz/sub-vending:0.1.0' = {
   name: 'sub001'
   params: {
     subscriptionAliasEnabled: true
@@ -39,7 +39,7 @@ There are a number of other ways to consume the Bicep modules included in `bicep
 - Creating your own GitHub Repository & Utilizing the `Invoke-GitHubReleaseFetcher.ps1` script & `gh-release-checker.yml` GitHub Action Workflow
   - See detailed instruction on using this [below](#creating-your-own-github-repository--utilizing-the-invoke-githubreleasefetcherps1-script--gh-release-checkeryml-github-action-workflow)
 - Use and reference the modules directly from the [Bicep Module Registry (Public)](https://github.com/Azure/bicep-registry-modules)
-  - [Bicep Landing Zone (Subscription) Vending Module on Bicep Module Registry (Public)](https://github.com/Azure/bicep-registry-modules/tree/main/modules/lz/sub-vending)
+  - [Bicep Landing Zone (Subscription) Vending Module on Bicep Module Registry (Public)](https://github.com/Azure/bicep-registry-modules/tree/main/avm/ptn/lz/sub-vending)
   - See a live demo using the Bicep Module Registry on the [Bicep Community Call - November 2022](https://youtu.be/hu0PgCamxt0?t=1038) 📽️🎬🎞️
 - Clone this repository
 - Fork & Clone this repository
