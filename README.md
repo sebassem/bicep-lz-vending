@@ -20,7 +20,7 @@ We would like to inform you that this repository has been **archived** and the B
 
 We are converting this module to be an [Azure Verified pattern module](https://aka.ms/avm) to better align with the [Azure Verified Modules](https://azure.github.io/Azure-Verified-Modules/concepts/what-why-how/) initiative. This will help us align with the Well-architected framework guidance, have improved [module support](https://azure.github.io/Azure-Verified-Modules/help-support/module-support/) and provide you with a consistent experience consuming [AVM Bicep modules](https://azure.github.io/Azure-Verified-Modules/indexes/bicep/).
 
-If you are not familiar with [Azure Verified Modules](https://aka.ms/avm), you can watch the following Youtube videos for a quick overview:
+📒 If you are not familiar with [Azure Verified Modules](https://aka.ms/avm), you can watch the following Youtube videos for a quick overview:
 
 - [An Introduction to Azure Verified Modules (AVM) by the Customer Architecture & Engineering team](https://youtu.be/JbIMrJKW5N0?si=4v69hlyBbINufHEO) 📽️🎬🎞️
 - [Azure Verified Modules Overview by John Savill](https://youtu.be/3FeIFHaJOtg?si=ZDXJ3EPwT9Xlzq2P) 📽️🎬🎞️
@@ -33,7 +33,7 @@ We tried as much as possible to have a smooth transition path with minimal break
 - Change the module reference in your code to reference `br/public:avm/ptn/lz/sub-vending:x.x.x` instead of `br/public:lz/sub-vending:x.x.x`
 - If you have a preference on sharing deployment elemetry for this module, the parameter `disableTelemetry` has been changed to `enableTelemetry`. This change is due to AVM modules mandate the use of this parameter.
 
-### Issues and Pull requests
+### Feedback
 
 For any issues, suggestions or feedback for this module, please open an issue on the [Bicep public registry](https://github.com/Azure/bicep-registry-modules/issues).
 
