@@ -3,9 +3,11 @@
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/azure/bicep-lz-vending.svg)](http://isitmaintained.com/project/azure/bicep-lz-vending "Average time to resolve an issue")
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/azure/bicep-lz-vending.svg)](http://isitmaintained.com/project/azure/bicep-lz-vending "Percentage of issues still open")
 
+_____________________________________________________________________________________________________________________________________
+
 ## ⚠️⚠️ Repository archiving notice ⚠️⚠️
 
-We would like to inform you that this repository has been **archived** and the Bicep landing zone vending module for Azure now has a new [home](aka.ms/lz-vending/bicep) in the [Bicep public registry](https://aka.ms/lz-vending/bicep).
+We would like to inform you that this repository has been **archived** and the Bicep landing zone vending module for Azure now has a new home in the [Bicep public registry](https://aka.ms/lz-vending/bicep).
 
 ### What Does This Mean?
 
@@ -15,13 +17,15 @@ We would like to inform you that this repository has been **archived** and the B
 
 ### Why Was This Done?
 
-We are converting this module to be an [Azure Verified pattern module](https://aka.ms/lz-vending/bicep) to better align with the [Azure Verified Modules](aka.ms/avm) initiative. This will help us align with the Well-architected framework guidance, have improved module support and provide you with a consistent experience consuming [AVM Bicep modules](https://azure.github.io/Azure-Verified-Modules/indexes/bicep/).
+We are converting this module to be an [Azure Verified pattern module](https://aka.ms/avm) to better align with the [Azure Verified Modules](https://azure.github.io/Azure-Verified-Modules/concepts/what-why-how/) initiative. This will help us align with the Well-architected framework guidance, have improved module support and provide you with a consistent experience consuming [AVM Bicep modules](https://azure.github.io/Azure-Verified-Modules/indexes/bicep/).
 
-### Contact Information
+### Issues and Pull requests
 
-For any issues, suggesstions or feedback for this module, please open an issue on the [Bicep public registry](https://github.com/Azure/bicep-registry-modules/issues).
+For any issues, suggestions or feedback for this module, please open an issue on the [Bicep public registry](https://github.com/Azure/bicep-registry-modules/issues).
 
 Thank you for your understanding and continued support.
+
+______________________________________________________________________________________________________________________________________
 
 ## Overview
 
