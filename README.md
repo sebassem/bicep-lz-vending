@@ -3,6 +3,26 @@
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/azure/bicep-lz-vending.svg)](http://isitmaintained.com/project/azure/bicep-lz-vending "Average time to resolve an issue")
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/azure/bicep-lz-vending.svg)](http://isitmaintained.com/project/azure/bicep-lz-vending "Percentage of issues still open")
 
+## ⚠️⚠️ Repository archiving notice ⚠️⚠️
+
+We would like to inform you that this repository has been **archived** and the Bicep landing zone vending module for Azure now has a new [home](aka.ms/lz-vending/bicep) in the [Bicep public registry](https://aka.ms/lz-vending/bicep).
+
+### What Does This Mean?
+
+- This repository is now in a **read-only** state.
+- No further issues, pull requests, or updates will be maintained on this repository.
+- All future releases, fixes and improvements will be managed in the new module hosted in the [Bicep public registry](https://aka.ms/lz-vending/bicep).
+
+### Why Was This Done?
+
+We are converting this module to be an [Azure Verified pattern module](https://aka.ms/lz-vending/bicep) to better align with the [Azure Verified Modules](aka.ms/avm) initiative. This will help us align with the Well-architected framework guidance, have improved module support and provide you with a consistent experience consuming [AVM Bicep modules](https://azure.github.io/Azure-Verified-Modules/indexes/bicep/).
+
+### Contact Information
+
+For any issues, suggesstions or feedback for this module, please open an issue on the [Bicep public registry](https://github.com/Azure/bicep-registry-modules/issues).
+
+Thank you for your understanding and continued support.
+
 ## Overview
 
 > ℹ️ This module requires the usage of Bicep version `v0.11.1` or later. For details on installing/upgrading Bicep see: [Install Bicep tools](https://learn.microsoft.com/azure/azure-resource-manager/bicep/install) ℹ️
