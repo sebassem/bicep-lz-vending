@@ -5,7 +5,7 @@
 
 _____________________________________________________________________________________________________________________________________
 
-## ⚠️⚠️ Repository archiving notice ⚠️⚠️
+## ⚠️⚠️ Repository archival notice ⚠️⚠️
 
 We would like to inform you that this repository has been **archived** and the Bicep landing zone vending module for Azure now has a new home in the [Bicep public registry](https://aka.ms/lz-vending/bicep).
 
@@ -13,17 +13,23 @@ We would like to inform you that this repository has been **archived** and the B
 
 - This repository is now in a **read-only** state.
 - No further issues, pull requests, or updates will be maintained on this repository.
-- All future releases, fixes and improvements will be managed in the new module hosted in the [Bicep public registry](https://aka.ms/lz-vending/bicep).
-- We will continue to leverage the [Wiki](https://github.com/azure/bicep-lz-vending/wiki) in this repository as the current main module documentation.
+- All future releases, fixes and improvements will be managed in the new module hosted on the [Bicep public registry](https://aka.ms/lz-vending/bicep).
+- We will continue to leverage the [Wiki](https://github.com/azure/bicep-lz-vending/wiki) in this repository as the module's documentation and guidance location.
 
 ### Why was this done?
 
-We are converting this module to be an [Azure Verified pattern module](https://aka.ms/avm) to better align with the [Azure Verified Modules](https://azure.github.io/Azure-Verified-Modules/concepts/what-why-how/) initiative. This will help us align with the Well-architected framework guidance, have improved module support and provide you with a consistent experience consuming [AVM Bicep modules](https://azure.github.io/Azure-Verified-Modules/indexes/bicep/).
+We are converting this module to be an [Azure Verified pattern module](https://aka.ms/avm) to better align with the [Azure Verified Modules](https://azure.github.io/Azure-Verified-Modules/concepts/what-why-how/) initiative. This will help us align with the Well-architected framework guidance, have improved [module support](https://azure.github.io/Azure-Verified-Modules/help-support/module-support/) and provide you with a consistent experience consuming [AVM Bicep modules](https://azure.github.io/Azure-Verified-Modules/indexes/bicep/).
+
+If you are not familiar with [Azure Verified Modules](https://aka.ms/avm), you can watch the following Youtube videos for a quick overview:
+
+- [An Introduction to Azure Verified Modules (AVM) by the Customer Architecture & Engineering team](https://youtu.be/JbIMrJKW5N0?si=4v69hlyBbINufHEO)
+- [Azure Verified Modules Overview by John Savill](https://youtu.be/3FeIFHaJOtg?si=ZDXJ3EPwT9Xlzq2P)
 
 ### If I'm already using the Bicep Subscription vending module from the Bicep public registry, what do I need to change?
 
 We tried as much as possible to have a smooth transition path with minimal breaking changes. To switch to the new module:
 
+- Review the documentation for the [new AVM module](https://aka.ms/lz-vending/bicep).
 - Change the module reference in your code to reference `br/public:avm/ptn/lz/sub-vending:x.x.x` instead of `br/public:lz/sub-vending:x.x.x`
 - If you have a preference on sharing deployment elemetry for this module, the parameter `disableTelemetry` has been changed to `enableTelemetry`. This change is due to AVM modules mandate the use of this parameter.
 

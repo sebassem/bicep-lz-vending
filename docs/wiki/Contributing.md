@@ -53,6 +53,6 @@ The following tooling/extensions are recommended to assist you developing for th
 
 ## Azure Verified Modules (AVM) contribution guide
 
-Please follow the [contribution guide](https://azure.github.io/Azure-Verified-Modules/contributing/) in the AVM documentation.
+Please follow the [contribution guide](https://azure.github.io/Azure-Verified-Modules/contributing/) in the AVM documentation and review [module specifications](https://azure.github.io/Azure-Verified-Modules/specs/module-specs/).
 
 
