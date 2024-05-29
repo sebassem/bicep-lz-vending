@@ -9,15 +9,23 @@ ________________________________________________________________________________
 
 We would like to inform you that this repository has been **archived** and the Bicep landing zone vending module for Azure now has a new home in the [Bicep public registry](https://aka.ms/lz-vending/bicep).
 
-### What Does This Mean?
+### What does this mean?
 
 - This repository is now in a **read-only** state.
 - No further issues, pull requests, or updates will be maintained on this repository.
 - All future releases, fixes and improvements will be managed in the new module hosted in the [Bicep public registry](https://aka.ms/lz-vending/bicep).
+- We will continue to leverage the [Wiki](https://github.com/azure/bicep-lz-vending/wiki) in this repository as the current main module documentation.
 
-### Why Was This Done?
+### Why was this done?
 
 We are converting this module to be an [Azure Verified pattern module](https://aka.ms/avm) to better align with the [Azure Verified Modules](https://azure.github.io/Azure-Verified-Modules/concepts/what-why-how/) initiative. This will help us align with the Well-architected framework guidance, have improved module support and provide you with a consistent experience consuming [AVM Bicep modules](https://azure.github.io/Azure-Verified-Modules/indexes/bicep/).
+
+### If I'm already using the Bicep Subscription vending module from the Bicep public registry, what do I need to change?
+
+We tried as much as possible to have a smooth transition path with minimal breaking changes. To switch to the new module:
+
+- Change the module reference in your code to reference `br/public:avm/ptn/lz/sub-vending:x.x.x` instead of `br/public:lz/sub-vending:x.x.x`
+- If you have a preference on sharing deployment elemetry for this module, the parameter `disableTelemetry` has been changed to `enableTelemetry`. This change is due to AVM modules mandate the use of this parameter.
 
 ### Issues and Pull requests
 
