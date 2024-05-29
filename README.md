@@ -22,8 +22,8 @@ We are converting this module to be an [Azure Verified pattern module](https://a
 
 If you are not familiar with [Azure Verified Modules](https://aka.ms/avm), you can watch the following Youtube videos for a quick overview:
 
-- [An Introduction to Azure Verified Modules (AVM) by the Customer Architecture & Engineering team](https://youtu.be/JbIMrJKW5N0?si=4v69hlyBbINufHEO)
-- [Azure Verified Modules Overview by John Savill](https://youtu.be/3FeIFHaJOtg?si=ZDXJ3EPwT9Xlzq2P)
+- [An Introduction to Azure Verified Modules (AVM) by the Customer Architecture & Engineering team](https://youtu.be/JbIMrJKW5N0?si=4v69hlyBbINufHEO) 📽️🎬🎞️
+- [Azure Verified Modules Overview by John Savill](https://youtu.be/3FeIFHaJOtg?si=ZDXJ3EPwT9Xlzq2P) 📽️🎬🎞️
 
 ### If I'm already using the Bicep Subscription vending module from the Bicep public registry, what do I need to change?
 
