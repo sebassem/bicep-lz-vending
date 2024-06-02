@@ -17,4 +17,3 @@ Before deployment, please review the [required permissions](https://github.com/a
 
 [alz_conceptual_arch]: https://aka.ms/alz#azure-landing-zone-conceptual-architecture
 [alz_bicep_module]: https://aka.ms/alz/bicep
-[readme]: https://aka.ms/lz-vending/bicep
