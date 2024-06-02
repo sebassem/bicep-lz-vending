@@ -7,7 +7,7 @@ ________________________________________________________________________________
 
 ## ⚠️⚠️ Repository archival notice ⚠️⚠️
 
-We would like to inform you that this repository has been **archived** and the Bicep landing zone vending module for Azure now has a new home in the [Bicep public registry](https://aka.ms/lz-vending/bicep).
+We would like to inform you that this repository has been **archived** and the Bicep landing zone vending module for Azure now has a new home in the [Bicep public registry](https://aka.ms/lz-vending/bicep) and is now a pattern module in the [Azure Verified Modules](https://aka.ms/avm) initiative.
 
 ### What does this mean?
 
