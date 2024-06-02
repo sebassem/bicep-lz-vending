@@ -13,7 +13,7 @@ We would like to inform you that this repository has been **archived** and the B
 
 - This repository is now in a **read-only** state.
 - No further issues, pull requests, or updates will be maintained on this repository.
-- All future releases, fixes and improvements will be managed in the new module hosted on the [Bicep public registry](https://aka.ms/lz-vending/bicep).
+- All future releases, fixes and improvements will be managed in the new AVM pattern module hosted on the [Bicep public registry](https://aka.ms/lz-vending/bicep).
 - We will continue to leverage the [Wiki](https://github.com/azure/bicep-lz-vending/wiki) in this repository as the module's documentation and guidance location.
 
 ### Why was this done?
