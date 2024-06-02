@@ -33,6 +33,8 @@ We tried as much as possible to have a smooth transition path with minimal break
 - Change the module reference in your code to reference `br/public:avm/ptn/lz/sub-vending:x.x.x` instead of `br/public:lz/sub-vending:x.x.x`
 - If you have a preference on sharing deployment elemetry for this module, the parameter `disableTelemetry` has been changed to `enableTelemetry`. This change is due to AVM modules mandate the use of this parameter.
 
+> **NOTE:** After the migration to Azure Verified Modules, version `1.5.2` of the Subscription Vending module is now `0.1.0` in the [Bicep public registry](https://aka.ms/lz-vending/bicep).
+
 ### Feedback
 
 For any issues, suggestions or feedback for this module, please open an issue on the [Bicep public registry](https://github.com/Azure/bicep-registry-modules/issues).
